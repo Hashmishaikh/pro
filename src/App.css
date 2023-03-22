@@ -1,38 +1,291 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.f-account-container-l {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  width: 70%;
+  padding: 80px 6%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  background-image: url(../public/images/scattered-forcefields.svg);
+  background-position: 3px 0px;
+  background-size: auto;
+}
+
+.d-header-welcome-username {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0099f7), color-stop(40%, #60659b), to(#f11712));
+  background-image: linear-gradient(90deg, #0099f7, #60659b 40%, #f11712);
+  font-size: 38px;
+  line-height: 49px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.enter-color{
+  color: #6b7094;
+    font-size: 12px;
+}
+
+.f-account-form-button-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.colors{
+  background-color:#160042 !important;
+  border-radius: 50px;
+  height: 44px;
+}
+
+.f-account-image-wrapper-2 {
+  width: 99%;
+  height: 100vh;
+  background-color: #f3f5fb;
+  background-image: url(../public/images/loginscreengraphic.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#211f54), to(rgba(127, 86, 217, 0.5))), url(../public/images/loginscreengraphic.png);
+  background-image: linear-gradient(180deg, #211f54, rgba(127, 86, 217, 0.5)), url(../public/images/loginscreengraphic.png);
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+.paragraph-10 {
+  margin-bottom: auto;
+  color: #fff;
+  font-size: 37px;
+  line-height: 29px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading-13 {
+  margin-bottom: auto;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-span-8 {
+  color: #ffe100;
+}
+
+.paragraph-9 {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-align: left;
+}
+
+.text-block-18 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.5);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.f-paragraph-small-2 {
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+}
+
+.f-account-link-2 {
+  color: #160042;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.div-block-25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#211f54), to(rgba(127, 86, 217, 0.5))), url(../public//images/register.jpg);
+  background-image: linear-gradient(180deg, #211f54, rgba(127, 86, 217, 0.5)), url(../public//images/register.jpg);
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.text-span-6 {
+  color: #7f56d9;
+  font-weight: 600;
+}
+
+.text-span-7 {
+  color: #7788f8;
+  font-weight: 600;
+}
+
+.paragraph-9 {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-align: left;
+}
+
+.heading-12 {
+  margin-bottom: auto;
+  color: #fff;
+}
+
+.f-account-image-wrapper {
+  width: 99%;
+  /* height: 100vh; */
+  background-color: #f3f5fb;
+  background-image: url(../public/images/loginscreengraphic.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.f-checkbox-field {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.f-checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0px 8px 0px 0px;
+  border-width: 2px;
+  border-color: #b6b9ce;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.f-checkbox-label {
+  margin-bottom: 0px;
+  color: #160042;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.w-form-label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.text-span-5 {
+  font-weight: 700;
+}
+
+.w-checkbox {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+.w-checkbox-input--inputType-custom {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-color: #ccc;
+  border-bottom-color: #ccc;
+  border-left-color: #ccc;
+  border-right-color: #ccc;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  width: 12px;
+  height: 12px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.w-checkbox-input {
+  float: left;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: 0px;
+  margin-top: 4px;
+  line-height: normal;
+}
+
+.f-checkbox.w--redirected-checked {
+  border-style: none;
+  border-radius: 4px;
+  background-color: #160042;
+  background-size: 12px;
 }
